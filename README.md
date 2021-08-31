@@ -12,8 +12,6 @@ var num:Int; num = 5; println(num)
 Kotlin은 신기하게도, 다음과 같은 코드를 작성할 수 있다.
 <pre>
 <code>
-// typealias & if else
-
 fun main() {
     val value:Int = if(10>5)
     {
