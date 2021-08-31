@@ -1,2 +1,1 @@
-# Kotlin Study
-## with [Kotlin 200제]
+# Kotlin Study with [Kotlin 200제]
