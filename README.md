@@ -5,3 +5,6 @@ Kotlin도 Python과 마찬가지로, semicolon으로 문장을 구별할 수 있
 <pre>
 <code>
 var num:Int; num = 5; println(num)
+</code>
+</pre>
+결과 : <code>5</code>
