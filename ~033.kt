@@ -9,7 +9,7 @@ fun main() {
 
 fun getAverage(a:Int = 0, b:Int = 0, print:Boolean=false):Double
 {
-	val result = (a+b) / 2.0
+    val result = (a+b) / 2.0
     if(print)
     	println("print : "+result)
     return result
