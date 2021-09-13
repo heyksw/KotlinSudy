@@ -28,3 +28,26 @@ fun main() {
 </code>
 </pre>
 변수의 선언에서 if와 else를 사용하는 것이다. 사실 파이썬에서도 가능하지만, print까지 가능하지는 않다.
+### 3. 가변인자 vararg
+매개변수 앞에 vararg 키워드를 붙이면 여러 개의 인수를 받을 수 있게 된다.
+<pre>
+```kotlin
+fun main()
+{
+    println(getSumOf(1,2,3,4,5,6,7))
+    println(getSumOf(10,20,30)
+    println(getSumOf())
+}
+
+fun getSumOf(vararg numbers: Int):Int
+{
+    val count = numbers.size;
+    var i = 0; var sum = 0;
+    while(i < count){
+        sum += numbers[i]
+        i += 1
+    }    
+    return sum
+}
+```
+</pre>
