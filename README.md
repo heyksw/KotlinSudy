@@ -31,7 +31,7 @@ fun main() {
 ### 3. 가변인자 vararg
 매개변수 앞에 vararg 키워드를 붙이면 여러 개의 인수를 받을 수 있게 된다.
 <pre>
-```kotlin
+<code>
 fun main()
 {
     println(getSumOf(1,2,3,4,5,6,7))
@@ -49,5 +49,5 @@ fun getSumOf(vararg numbers: Int):Int
     }    
     return sum
 }
-```
+</code>
 </pre>
