@@ -51,3 +51,4 @@ fun getSumOf(vararg numbers: Int):Int
 }
 </code>
 </pre>
+결과 : <code> 28 60 0 </code>
